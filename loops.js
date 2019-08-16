@@ -20,5 +20,5 @@ strangeloop.length = 25;
      console.log(--n);
     //  if (--n === 0){
        //   console.log("done");}
-     } return console.log("done");
+     } return "done";
  }
