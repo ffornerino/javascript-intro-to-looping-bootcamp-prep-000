@@ -23,12 +23,13 @@ strangeloop.length = 25;
      } return "done";
  }
  
+ 
  function incrementVariable() {
   i = i + 1;
   return i;
 }
  
- function doWhileLoop (i){
+ function doWhileLoop (n){
    do {console.log("I run once regardless");
- } while (incrementVariable() < i);
+ } while (incrementVariable() < n);
  }
