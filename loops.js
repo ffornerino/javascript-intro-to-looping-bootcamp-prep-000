@@ -28,7 +28,7 @@ strangeloop.length = 25;
   return i;
 }
  
- function doWhileLoop (n){
+ function doWhileLoop (i){
    do {console.log("I run once regardless");
- } while (incrementVariable() < n+1);
+ } while (incrementVariable() < i);
  }
