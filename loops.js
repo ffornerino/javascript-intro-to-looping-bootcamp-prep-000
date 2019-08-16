@@ -22,3 +22,7 @@ strangeloop.length = 25;
        //   console.log("done");}
      } return "done";
  }
+ 
+ function doWhileLoop (n){
+   do console.log("I run once regardless")
+ }
